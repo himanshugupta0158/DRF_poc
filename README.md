@@ -26,7 +26,7 @@ pip3 install virtualenv #if using linux(for python 3 and above)
 
 **bash**
 ```
-git clone https://github.com/himanshugupta0158/django_DRF.git
+git clone https://github.com/himanshugupta0158/DRF_poc.git
 ```
 - This will clone whole project
 
