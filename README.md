@@ -3,6 +3,7 @@
 - just by going through API links and adding data in those APIs , we can do login, logout , change password .
 
 
+
 ## Prerequisites:
 
 You will need the following programmes properly installed on your computer.
@@ -10,36 +11,46 @@ You will need the following programmes properly installed on your computer.
 * [Python](https://www.python.org/) 3.6+
 * Virtual Environment
 
-To install virtual environment on your system use:
+### To install virtual environment on your system use:
 
-```bash
+**bash**
+```
 pip install virtualenv
-
-or
-
+```
+**or**
+```
 pip3 install virtualenv #if using linux(for python 3 and above)
 ```
 
-
 ## Installation and Running :
 
+**bash**
 ```
-bash
-git clone https://github.com/ongraphpythondev/Stripe_payment_gateway
+git clone https://github.com/himanshugupta0158/django_DRF.git
+```
 - This will clone whole project
 
-
+```
 virtualenv venv 
-      or 
+```   
+**or**
+```
 virtualenv venv -p python3 #if using linux(for python 3 and above)
-
-NOTE : 'venv' is the name of your isolated virtual environment for python.
-
+```
+*NOTE : 'venv' is the name of your isolated virtual environment for python.*
+```
 venv\Scripts\activate # for windows
-      or
+```
+**or**
+```
 source venv/bin/activate # for linux
-
+```
 # install required packages for the project to run
+```
 pip install django djangorestframework
+```
 
+#### If you are using image data in your database model make sure you install 
+```
+pip install pillow
 ```
